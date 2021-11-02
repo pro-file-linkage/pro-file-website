@@ -1,0 +1,242 @@
+.logo {
+  height: 28px;
+}
+
+.search-box {
+  font-size: 24px;
+}
+
+.card {
+  width: 100%;
+}
+
+.border {
+  padding: 0.2em 0.5em;
+  border-radius: 0.2em;
+  font-size: 0.7em;
+  margin-left: 0.2em;
+  opacity: 0.3;
+}
+
+.border:hover {
+  opacity: 0.5;
+}
+
+.contact-child {
+  background-image: url("../img/upload/contact.jpg");
+  background-position: center;
+  background-size: contain;
+}
+
+.team {
+  margin: auto;
+  text-align: center;
+}
+
+.team p,
+.team p a {
+  color: black;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.team .socials {
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.team .socials i,
+.team .socials i a {
+  color: black;
+  opacity: 0.4;
+}
+
+.team .socials i:hover {
+  opacity: 0.7;
+}
+
+.team-profile {
+  height: 150px;
+  width: 150px;
+  border: solid green 1px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.team-profile-picture {
+  height: 100%;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+  padding: 0.4em 0;
+}
+
+.navbar-toggler,
+.navbar-toggler a {
+  border: none;
+  color: black;
+  opacity: 0.8;
+}
+
+.profile-image-box {
+  min-height: 400px;
+  width: 100%;
+}
+
+.cover-image {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  background-image: url("../img/upload/programmer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.cover-image .edit-button {
+  color: green;
+  position: absolute;
+  bottom: -20px;
+  right: 15%;
+  background-color: white;
+  box-shadow: 0px 0px 8px #000;
+  padding: 0.4em 0.5em;
+  border-radius: 50%;
+}
+
+.below-cover-image {
+  height: 200px;
+  width: 100%;
+}
+
+.profile-image {
+  position: relative;
+  margin-top: -12%;
+  height: 250px;
+  width: 250px;
+  box-shadow: 0px 0px 8px #000;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile-image .edit-button {
+  position: absolute;
+  bottom: 3%;
+  right: 40%;
+  color: green;
+  background-color: white;
+  box-shadow: 0px 0px 8px #000;
+  padding: 0.4em 0.5em;
+  border-radius: 50%;
+}
+
+.profile-image img {
+  height: 250px;
+  width: 250px;
+  border: solid green 1px;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.input-lg {
+  font-size: xx-large;
+  text-align: center;
+  border: none;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.profile-edit .input-group-text {
+  border: none;
+  background: none;
+}
+
+.view-profile-icon {
+  margin-right: 0.5em;
+  background-color: green;
+  color: white;
+  padding: 0.3em;
+  border-radius: 15%;
+}
+
+@media (max-width: 992px) {
+  .profile-image-box {
+    min-height: 300px;
+    width: 100%;
+  }
+
+  .cover-image {
+    height: 150px;
+    width: 100%;
+    background-image: url("../img/upload/programmer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .below-cover-image {
+    height: 150px;
+    width: 100%;
+  }
+
+  .profile-image {
+    margin-top: -15%;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 0px 8px #000;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .profile-image img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-image-box {
+    min-height: 250px;
+    width: 100%;
+  }
+
+  .cover-image {
+    height: 125px;
+    width: 100%;
+    background-image: url("../img/upload/programmer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .below-cover-image {
+    height: 125px;
+    width: 100%;
+  }
+
+  .profile-image {
+    margin-top: -15%;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 0px 8px #000;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .profile-image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+  }
+}
